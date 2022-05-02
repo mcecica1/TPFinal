@@ -5,7 +5,8 @@
 }
 
 body {
-  
+  background-color: rgba(217, 215, 215, 0.968);
+
 	color: #000;
 	/*font-family: 'Ms Madi', cursive*/ 
   font-family: 'Caveat', cursive;
@@ -74,7 +75,7 @@ body {
 
 .frame {
   border: 1px solid black; 
-  width: 50%;
+  width: 45%;
 
 }
 
@@ -85,7 +86,6 @@ body {
   font-size: 1.5vw;
   color:black; 
   width: 100%; 
-
   text-align: center;
   
 }
@@ -97,7 +97,8 @@ body {
     color: white;
     width: 100%;     
     text-align: center;
-   
+    
+    text-shadow: 2px 2px 4px grey;
   }
   .tituloContenido {
     position: relative; 
@@ -128,10 +129,10 @@ body {
   border: 1px solid black;
 }
 .imagen{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 15vh;
     opacity: 1;
-}
+   }
 
 
 .contenedor .footer {
@@ -159,10 +160,68 @@ body {
   color: rgb(81, 112, 216);
   
 }
+
 .lista{
   list-style: none;  
   font-size: 1.5vw;
+  counter-reset: li; 
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  border-radius: 7px;
 }
+
+.lista ol {
+  margin: 0 0 0 2em; 
+}
+
+.lista {
+  list-style-type: none;     
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;   
+  counter-reset: li-counter;
+}
+.lista > li{
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: 1em; 
+  background-color:  grey;
+  border-radius: 7px;
+}
+
+
+.lista > li:before {
+  position: absolute;
+  top: -0.3em;
+  left: -0.5em;
+  width: 1.3em;
+  height: 1.2em;   
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+  color: #464646;
+  background-color: #d0d0d0;   
+  border-radius: 7px;
+  transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  z-index: 99;
+  overflow: hidden;   
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+.lista a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.lista a:visited {
+  background-color: #ddd;
+  color: black;
+}
+
+
 
 .sidebar ul{
   list-style: none;      
@@ -239,7 +298,7 @@ body {
 form{
   width: auto;
   margin: auto;
-  background-color: rgba(0,0,0,0.4);
+  background-color:rgba(128, 128, 128, 0.448);
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -261,20 +320,20 @@ input, textarea{
   box-sizing:border-box;
   font-size: 1.5vw;
   border: none;
+  font-family: 'Caveat', cursive;
 }
-textarea{
- 
+textarea{ 
   max-height: 100%;
   max-width: 100%;
 }
 
 .boton{
-  background: #04AA6D;
+  background: grey;
   color: white;
   padding: 20px;
 }
 
 .boton:hover{
   cursor: pointer;
-  color: green;
+  color:black;
 }

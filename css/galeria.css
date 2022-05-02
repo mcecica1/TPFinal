@@ -6,6 +6,7 @@
 body {	
 	color: #000;
   font-family: 'Caveat', cursive;
+  background-color: rgba(217, 215, 215, 0.968);
 }
 
 
@@ -93,7 +94,7 @@ body {
 }
 
 .light-box img{
-    width: 75vw;
+    width: 55vw;
     max-height: 70vh;
 }
 
@@ -172,6 +173,7 @@ body {
     width: 100%; 
     text-align: center;
     font-size: 2.5vw;
+    text-shadow: 2px 2px 4px grey;
   }
   .tituloContenido {
     position: relative; 
@@ -296,18 +298,3 @@ body {
 }
 }
 
-
-/*
- <h3>Sucursales</h3>
-              <ul>
-                <li><a href="https://goo.gl/maps/T27gz9f1PADBa3qN7" target="blank">Gaona 1000</a></li>
-                <li> <a href="https://goo.gl/maps/T27gz9f1PADBa3qN7" target="blank">Cabildo 3500</a></li>
-                <li> <a href="https://goo.gl/maps/T27gz9f1PADBa3qN7" target="blank">Rivadavia 8500</a></li>
-              </ul>
-            <ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.417477609652!2d-58.47441909999999!3d-34.6141645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1ea91fd4cf%3A0xbaee7969a08f24df!2sPlaza%20Irlanda!5e0!3m2!1ses-419!2sar!4v1650975100438!5m2!1ses-419!2sar" width="200" height="150" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.417477609652!2d-58.47441909999999!3d-34.6141645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1ea91fd4cf%3A0xbaee7969a08f24df!2sPlaza%20Irlanda!5e0!3m2!1ses-419!2sar!4v1650975100438!5m2!1ses-419!2sar" width="200" height="150" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.417477609652!2d-58.47441909999999!3d-34.6141645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1ea91fd4cf%3A0xbaee7969a08f24df!2sPlaza%20Irlanda!5e0!3m2!1ses-419!2sar!4v1650975100438!5m2!1ses-419!2sar" width="200" height="150" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
-            </ul>
-*/
