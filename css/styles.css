@@ -75,7 +75,7 @@ body {
 
 .frame {
   border: 1px solid black; 
-  width: 45%;
+  width: 40%;
 
 }
 
@@ -238,6 +238,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
   .contenedor {
+ background-color: #04AA6D;
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
@@ -250,12 +251,28 @@ body {
     "contenido contenido contenido"	
     "sidebar sidebar sidebar"					 
     "footer footer footer";
+    
+  }
+  .header-menu a {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+  .texto {    
+    font-size: 13px;
+     
+  }
+  .lista{
+    font-size: 13px;
+  }
+  input, textarea{
+    font-size: 25px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) { 
   .contenedor {
+   
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
@@ -270,7 +287,19 @@ body {
     "sidebar sidebar sidebar"					 
     "footer footer footer";
   }
-
+  .header-menu a {    
+    font-size: 18px;
+  }
+  .texto {    
+    font-size: 16px;
+      
+  }
+  .lista{
+    font-size: 15px;
+  }
+  input, textarea{
+    font-size: 2vw;
+  }
 }
 
 
@@ -313,6 +342,18 @@ form{
   margin-bottom: 20px;
 }
 
+
+.boton{
+  background: grey;
+  color: white;
+  padding: 20px;
+}
+
+.boton:hover{
+  cursor: pointer;
+  color:black;
+}
+
 input, textarea{
   width: 100%;
   margin-bottom: 20px;
@@ -325,15 +366,4 @@ input, textarea{
 textarea{ 
   max-height: 100%;
   max-width: 100%;
-}
-
-.boton{
-  background: grey;
-  color: white;
-  padding: 20px;
-}
-
-.boton:hover{
-  cursor: pointer;
-  color:black;
 }

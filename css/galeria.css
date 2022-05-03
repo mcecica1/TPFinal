@@ -229,6 +229,7 @@ body {
   
   
   .contenedor {
+    
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
@@ -240,6 +241,10 @@ body {
     "header-menu header-menu header-menu"
     "contenido contenido contenido"						 
     "footer footer footer";
+  }
+  .header-menu a {
+    padding: 12px 10px;
+    font-size: 15px;
   }
 }
 
@@ -260,7 +265,9 @@ body {
 					 
   "footer footer footer";
 }
-
+.header-menu a {    
+  font-size: 18px;
+}
 }
 
 
