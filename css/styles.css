@@ -235,94 +235,6 @@ body {
   font-size: 12px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) { 
-  .contenedor {
- background-color: #04AA6D;
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    display:grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-    "header-menu header-menu header-menu"
-    "contenido contenido contenido"	
-    "sidebar sidebar sidebar"					 
-    "footer footer footer";
-    
-  }
-  .header-menu a {
-    padding: 12px 10px;
-    font-size: 15px;
-  }
-  .texto {    
-    font-size: 13px;
-     
-  }
-  .lista{
-    font-size: 13px;
-  }
-  input, textarea{
-    font-size: 25px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { 
-  .contenedor {
-   
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    display:grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-        
-    "header-menu header-menu header-menu"
-    "contenido contenido contenido"	
-    "sidebar sidebar sidebar"					 
-    "footer footer footer";
-  }
-  .header-menu a {    
-    font-size: 18px;
-  }
-  .texto {    
-    font-size: 16px;
-      
-  }
-  .lista{
-    font-size: 15px;
-  }
-  input, textarea{
-    font-size: 2vw;
-  }
-}
-
-
-@media only screen and (min-width: 992px) { 
-  .contenedor {
-    grid-template-areas:                       
-    "header-menu header-menu  header-menu"
-    "contenido contenido  sidebar"										 
-            "footer footer footer";
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { 
-    .contenedor {
-      grid-template-areas:     
-                    
-              "header-menu header-menu  header-menu"
-              "contenido contenido  sidebar"						 
-              "footer footer footer";
-    }
-}
-
 
 form{
   width: auto;
@@ -367,3 +279,96 @@ textarea{
   max-height: 100%;
   max-width: 100%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+  .contenedor {
+      
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        display:grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "header-menu header-menu header-menu"
+        "contenido contenido contenido"	
+        "sidebar sidebar sidebar"					 
+        "footer footer footer";
+        
+      }
+    .header-menu a {
+      padding: 12px 10px;
+      font-size: 15px;
+    }
+    .texto {    
+      font-size: 13px;
+      
+    }
+    .lista{
+      font-size: 13px;
+    }
+    input, textarea{
+      font-size: 12px;
+    }
+    .h2clase{
+      font-size: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { 
+  .contenedor {
+   
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        
+    "header-menu header-menu header-menu"
+    "contenido contenido contenido"	
+    "sidebar sidebar sidebar"					 
+    "footer footer footer";
+  }
+  .header-menu a {    
+    font-size: 18px;
+  }
+  .texto {    
+    font-size: 16px;
+      
+  }
+  .lista{
+    font-size: 18px;
+  }
+  
+  input, textarea{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) { 
+  .contenedor {
+    grid-template-areas:                       
+    "header-menu header-menu  header-menu"
+    "contenido contenido  sidebar"										 
+            "footer footer footer";
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    .contenedor {
+      grid-template-areas:     
+                    
+              "header-menu header-menu  header-menu"
+              "contenido contenido  sidebar"						 
+              "footer footer footer";
+    }
+}
+
